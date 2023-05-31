@@ -67,11 +67,38 @@ Drob divisionDrob(Drob drob1, Drob drob2){
         drob3.setNumerator(drob1.getNumerator()*drob2.getDenominator());
     return drob3;
 };
-
+/*
 #elif test2
 
-class Abonent{
+class PhoneBook{
 private:
+    static int countAb=0;
+    Abonent* array=NULL;
+public:
+    Abonent* createPhoneBook(){
+        array=new Abonent[countAb];
+        return array;
+    }
+    void addAbonent(Abonent abonent){
+        Abonent* buf=new Abonent[countAb+1];
+        for (int i=0;i<countAb;i++){
+            buf[i]=array[i];
+        }
+        buf[countAb]=abonent;
+        delete[] array;
+        array=buf;
+        countAb++;
+    }
+   // void deleteAbonent(
+    void showAllAbonent(){
+        for (int i=0; i<countAb;i++){
+            array[i].showInfo();
+        }
+    }
+}
+class Abonent::Phonebook{
+private:
+    int numberAb=0;
     string fio="";
     string homePhone="0";
     string workPhone="0";
@@ -79,6 +106,9 @@ private:
     string suppInfo="";
     
 public:
+    Abonent(string fio,string homePhone,string workPhone,string mobilePhone);{
+        ++numberAb;
+    }
     void setFio(string fio){
         this->fio=fio;
     }
@@ -93,6 +123,9 @@ public:
     }
     void setSuppInfo(string suppInfo){
         this->suppInfo=suppInfo;
+    }
+    int getNumberAbonent(){
+        return numberAb;
     }
     string getFio(){
         return fio;
@@ -109,11 +142,13 @@ public:
     string getSuppInfo(){
         return suppInfo;
     }
-};
+    void showInfo(){
+        cout<<numberAb<<" "<<fio<<" "<<homePhone<<" "<<workPhone<<" "<<mobilePhone<<" "<<suppInfo<<";"<<endl;
+    }
+};*/
 #endif
 
 int main() {
-    
     
     
     
