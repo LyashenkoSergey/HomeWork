@@ -92,7 +92,9 @@ public:
         return number;
     }
     
-    ~Car();
+    ~Car(){
+        delete[] number;
+    };
     
 };
 char* Car::uniqNumber=new char[]{'A','0','0','0','A','A'};
@@ -167,6 +169,16 @@ public:
 };
 
 int main() {
+    Parking p;
+       cout << "Adding car 1.." << endl;
+       Car car1("BMW", "blue");
+       p.addCar(car1);
+       cout << "Added car 1 with number: " << car1.getNumber() << endl;
+       cout << "Adding car 2.." << endl;
+       Car car2("Audi", "red");
+       p.addCar(car2);
+       cout << "Added car 2 with number: " << car2.getNumber() << endl;
+
 
     return 0;
 }
