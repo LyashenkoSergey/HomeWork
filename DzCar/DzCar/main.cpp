@@ -25,61 +25,62 @@ private:
     static char* uniqNumber;
     int i=0,j=0,k=0;
 public:
-    
+    Car();
     Car(string model, string color){
         this->model=model;
         this->color=color;
         this->number=new char[6]{};
         this->number=generateUniqNumber(uniqNumber);
     }
-
+    
     char* generateUniqNumber(char*& uniqNumber){
         if (uniqNumber[3] == '9') {
-                   if (uniqNumber[2] == '9') {
-                       if (uniqNumber[1]=='9'){
-                           if (uniqNumber[5]=='X'){
-                               if (uniqNumber[4]=='X'){
-                                   uniqNumber[0]=letter[++k];
-                                   uniqNumber[1]='0';
-                                   uniqNumber[2]='0';
-                                   uniqNumber[3]='0';
-                                   uniqNumber[4]=letter['0'];
-                                   uniqNumber[4]=letter['0'];
-                                   i=-1;
-                                   j=-1;
-                               }
-                               else{
-                                   uniqNumber[4]=letter[++j];
-                                   uniqNumber[1]='0';
-                                   uniqNumber[2]='0';
-                                   uniqNumber[3]='0';
-                                   uniqNumber[5]=letter[0];
-                                   i=-1;
-                               }
-                           }
-                           else{
-                               uniqNumber[5]=letter[++i];
-                               uniqNumber[1]='0';
-                               uniqNumber[2]='0';
-                               uniqNumber[3]='0';
-                           }
-                       }
-                       else{
-                           uniqNumber[1]++;
-                           uniqNumber[2]='0';
-                           uniqNumber[3]='0';
-                       }
-                       
-                   } else {
-                       uniqNumber[2]++;
-                       uniqNumber[3] = '0';
-                   }
-               } else {
-                   uniqNumber[3]++;
-               }
-
+            if (uniqNumber[2] == '9') {
+                if (uniqNumber[1]=='9'){
+                    if (uniqNumber[5]=='X'){
+                        if (uniqNumber[4]=='X'){
+                            uniqNumber[0]=letter[++k];
+                            uniqNumber[1]='0';
+                            uniqNumber[2]='0';
+                            uniqNumber[3]='0';
+                            uniqNumber[4]=letter['0'];
+                            uniqNumber[4]=letter['0'];
+                            i=-1;
+                            j=-1;
+                        }
+                        else{
+                            uniqNumber[4]=letter[++j];
+                            uniqNumber[1]='0';
+                            uniqNumber[2]='0';
+                            uniqNumber[3]='0';
+                            uniqNumber[5]=letter[0];
+                            i=-1;
+                        }
+                    }
+                    else{
+                        uniqNumber[5]=letter[++i];
+                        uniqNumber[1]='0';
+                        uniqNumber[2]='0';
+                        uniqNumber[3]='0';
+                    }
+                }
+                else{
+                    uniqNumber[1]++;
+                    uniqNumber[2]='0';
+                    uniqNumber[3]='0';
+                }
+                
+            } else {
+                uniqNumber[2]++;
+                uniqNumber[3] = '0';
+            }
+        } else {
+            uniqNumber[3]++;
+        }
+        
         return uniqNumber;
     }
+
     
     Car(const Car& car){
         this->model=car.model;
@@ -94,9 +95,10 @@ public:
     
     ~Car(){
         delete[] number;
-    };
+    }
     
 };
+
 char* Car::uniqNumber=new char[]{'A','0','0','0','A','A'};
 
 class Parking {
