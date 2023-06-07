@@ -304,7 +304,7 @@ int main() {
             }
             case 4: {
                 for (int i=0;i<COUTNSTUDENTS;i++){
-                    int* buf=new int[students->getCountGrades()];
+                    int* buf=new int[journal.getStudents()[i].getCountGrades()];
                     buf=journal.getStudents()[i].getGrates();
                     journal.getStudents()[i].setGradeAtQuater(buf);
                 }
