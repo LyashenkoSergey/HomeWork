@@ -14,10 +14,11 @@
 
 int main()
 {
-    int counter, buf;
+    int counter=0;
     PhoneBook phonebook1;
     char* fio=new char[50]{};
     char* phone=new char[12]{};
+    Abonent buf{},buf1{};
     
     do {
         cout<<"Телефонная Книга"<<endl;
@@ -26,57 +27,53 @@ int main()
         cout<<"Нажмите \"3\", чтобы удалить абонента"<<endl;
         cout<<"Нажмите \"4\", чтобы искать абонента"<<endl;
         cout<<"Нажмите \"5\", чтобы выйти из телефонной книги"<<endl;
-        
         cin>>counter;
+        
         switch (counter){
-            case 1:
+            case 1:{
                 phonebook1.showPhoneBook();
                 break;
-            case 2:
+            }
+            case 2:{
                 cout<<"Введите ФИО - ";
                 cin.ignore();
                 cin.getline(fio, 50);
                 cout<<"Введите номер телефона - ";
                 cin.getline(phone, 12);
                 Abonent abonent(fio,phone);
-                phonebook1.AddAbonent(phonebook1,abonent);
+                phonebook1.AddAbonent(abonent);
                 break;
-            case 3:
+            }
+            case 3:{
                 cout<<"Введите ФИО - ";
                 cin.ignore();
                 cin.getline(fio, 50);
-                buf=phonebook1.SearchAbonent(phonebook1, fio);
-                if(buf==-1){
+                buf=phonebook1.SearchAbonent(fio);
+                if(buf==buf1){
                     cout<<"Абонент не найден"<<endl;
                 }
                 else{
-                    phonebook1.DelAbonent(phonebook1, phonebook1.getAbonent()[buf]);
+                    phonebook1.DelAbonent(buf);
                 }
                 break;
-            case 4:
+            }
+            case 4:{
                 cout<<"Введите ФИО - ";
                 cin.ignore();
                 cin.getline(fio, 50);
-                buf=phonebook1.SearchAbonent(phonebook1, fio);
-                if (buf!=-1){
-                    phonebook1.getAbonent()[buf].showAbonent();
+                buf=phonebook1.SearchAbonent(fio);
+                if (buf!=buf1){
+                    buf.showAbonent();
                 }
                 else cout<<"Абонент не найден";
                 break;
             default:
                 break;
+            }
         }
-        
-        
-        
-        
-        
-        
-        
         system("pause");
         
-    }
-    while (counter!=5);
+    }    while (counter!=5);
     
 }
 

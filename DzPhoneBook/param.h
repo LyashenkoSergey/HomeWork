@@ -9,6 +9,7 @@ private:
     char* fio;
     char* phone;
 public:
+    Abonent();
     Abonent(char* fio, char* phone){
         this->fio = new char[strlen(fio) + 1];
         this->fio=fio;
@@ -21,6 +22,24 @@ public:
         this->phone = new char[strlen(abonent.phone) + 1];
         this->phone=abonent.phone;
 
+    }
+    void operator =(const Abonent& abonent){
+          delete[] this->fio;
+          delete[] this->phone;
+          this->fio = new char[strlen(abonent.fio) + 1];
+          strcpy(this->fio, abonent.fio);
+          this->phone = new char[strlen(abonent.phone) + 1];
+          strcpy(this->phone, abonent.phone);
+      }
+
+    bool operator ==(Abonent& abonent){
+        if (
+            this->fio==abonent.fio &&
+            this->phone==abonent.phone){
+                return true;
+            }
+        else return false;
+    
     }
     void setFio(char* fio){
         delete[] this->fio;
@@ -69,60 +88,57 @@ public:
     }
 
     //поиск абонента
-    int SearchAbonent(PhoneBook* phonebook, char const* fio){
-        size_t size=strlen(fio);
-        bool flag=false;
-        int n=-1;
-        for (int i=0; i<number;i++){
-            if (phonebook->abonent[i].getFio()[0]==fio[0]){
-                flag=true;
-                n=i;
-                for (int j=1; j<size; j++){
-                    if (phonebook->abonent[i].getFio()[j]!=fio[j]){
-                        flag=false;
-                        n=-1;
-                        break;
-                    }
-                }
+    Abonent SearchAbonent(char* fio){
+        size_t size = strlen(fio);
+        Abonent n;
+        for (int i = 0; i < number; i++){
+            if (strncmp(abonent[i].getFio(), fio, size) == 0){
+                n = abonent[i];
+                break;
             }
         }
         return n;
     }
 
+
     //добавление абонента
-    void AddAbonent(PhoneBook*& phonebook, Abonent*& abonent){
-        PhoneBook* buf=new PhoneBook[number+1];
+    void AddAbonent(Abonent& abonent){
+        Abonent* buf=new Abonent[number+1];
         for (int i =0; i<number;i++){
-            buf[i]=phonebook[i];
+            buf[i]=this->abonent[i];
         }
-        buf[number]=PhoneBook(*abonent);
-        delete [] phonebook;
-        phonebook=buf;
+        buf[number]=abonent;
+        delete [] this->abonent;
+        this->abonent=buf;
         number++;
     }
         
 
     //удаление абонента
-    void DelAbonent(PhoneBook*& phonebook, Abonent*& abonent){
-        PhoneBook* buf=new PhoneBook[number-1];
-        int num=-1;
-        for (int i =0; i<number;i++){
-            if (phonebook[i].abonent==abonent){
-                num=i;
+    void DelAbonent(Abonent& abonent){
+        if (this->abonent!=nullptr){
+            Abonent* buf=new Abonent[number-1];
+            int num=-1;
+            for (int i =0; i<number;i++){
+                if (this->abonent[i]==abonent){
+                    num=i;
+                    break;
+                }
             }
+            if (num == -1) {
+                return ;
+            }
+            for (int i=0; i<num;i++){
+                buf[i]=this->abonent[i];
+            }
+            for (int i=num+1;i<number;i++){
+                buf[i-1]=this->abonent[i];
+            }
+            delete[] this->abonent;
+            this->abonent=buf;
+            number--;
         }
-        if (num == -1) {
-            return ;
-        }
-        for (int i=0; i<num;i++){
-            buf[i]=phonebook[i];
-        }
-        for (int i=num+1;i<number;i++){
-            buf[i-1]=phonebook[i];
-        }
-        delete [] phonebook;
-        phonebook=buf;
-        number--;
+        else cout<<"Phonebook is empty"<<endl;
     }
    
 
