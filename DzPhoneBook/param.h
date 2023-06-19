@@ -31,7 +31,6 @@ public:
           this->phone = new char[strlen(abonent.phone) + 1];
           strcpy(this->phone, abonent.phone);
       }
-
     bool operator ==(Abonent& abonent){
         if (
             this->fio==abonent.fio &&
