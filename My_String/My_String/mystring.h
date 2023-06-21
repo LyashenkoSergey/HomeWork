@@ -29,10 +29,11 @@ public:
 
     MyString(const char array2[]) {
         int size = countSymbol(array2);
-        char* buf = new char[size];
+        char* buf = new char[size+1];
         for (int i = 0; i < size; i++) {
             buf[i] = array2[i];
         }
+        buf[size]='\0';
         delete[] array;
         array = buf;
         this->size = size;
