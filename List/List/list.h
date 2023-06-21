@@ -37,21 +37,27 @@ public:
         counter++;
     }
     void insert(T data, int num) {
-        Node<T>* newNode=new Node<T>{ data };
-        if (head == nullptr) {
-            head = newNode;
-        }
-        else {
+        if (num<counter){
+            Node<T>* newNode=new Node<T>{ data };
             Node<T>* iter = head;
             while (counter-num++ > 1) {
                 iter = iter->next;
             }
+            Node<T>* buf = iter->next;
             iter->next = newNode;
-            newNode->next=iter->next->next;
+            newNode=buf;
+            counter++;
         }
-        counter++;
-
-    }
+        }
+    
+    void deleteHead() {
+            if (counter != 0) {
+                Node<T>* buf = head;
+                head = buf->next;
+                delete[]buf;
+            }
+        }
+    
     void show() {
         if (head != nullptr) {
             Node<T>* iter = head;
