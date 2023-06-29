@@ -37,7 +37,7 @@ public:
     void fixHeight(Node<T>* node)
     {
         unsigned int heightL = height(node->left);
-        unsigned char heightR = height(node->right);
+        unsigned int heightR = height(node->right);
         node->height = (heightL>heightR?heightL:heightR)+1;
     }
     
