@@ -8,14 +8,21 @@ vector<string> checkWords (const string str1,const string str2){
     for (int i=0;i<str1.length();i++){
         array.push_back("absent");
     }
-    int i = 0;
+    int i = 0, n=0;
+    char buf=' ';
     while (i < array.size()){
-        if (str1[i]==str2[i]){
+        if (str2[i]==str1[i]){
             array[i]="correct";
+            n++;
+            buf=str2[i];
         }
         else{
             for (int j=0;j<array.size();j++){
-                if (str1[i]==str2[j]){
+                if (str2[i]==buf){
+                    n--;
+                    break;
+                }
+                if (str2[i]==str1[j] && n<=0){
                     array[i]="present";
                 }
             }
