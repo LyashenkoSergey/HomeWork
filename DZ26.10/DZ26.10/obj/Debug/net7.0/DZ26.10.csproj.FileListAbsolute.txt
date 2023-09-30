@@ -1,0 +1,15 @@
+/Users/sergey/Projects/DZ26.10/DZ26.10/bin/Debug/net7.0/DZ26.10
+/Users/sergey/Projects/DZ26.10/DZ26.10/bin/Debug/net7.0/DZ26.10.deps.json
+/Users/sergey/Projects/DZ26.10/DZ26.10/bin/Debug/net7.0/DZ26.10.runtimeconfig.json
+/Users/sergey/Projects/DZ26.10/DZ26.10/bin/Debug/net7.0/DZ26.10.dll
+/Users/sergey/Projects/DZ26.10/DZ26.10/bin/Debug/net7.0/DZ26.10.pdb
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.csproj.AssemblyReference.cache
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.AssemblyInfoInputs.cache
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.AssemblyInfo.cs
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.csproj.CoreCompileInputs.cache
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.dll
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/refint/DZ26.10.dll
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.pdb
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/DZ26.10.genruntimeconfig.cache
+/Users/sergey/Projects/DZ26.10/DZ26.10/obj/Debug/net7.0/ref/DZ26.10.dll
