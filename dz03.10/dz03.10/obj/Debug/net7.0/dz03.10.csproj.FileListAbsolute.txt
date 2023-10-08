@@ -1,0 +1,15 @@
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/bin/Debug/net7.0/dz03.10
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/bin/Debug/net7.0/dz03.10.deps.json
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/bin/Debug/net7.0/dz03.10.runtimeconfig.json
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/bin/Debug/net7.0/dz03.10.dll
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/bin/Debug/net7.0/dz03.10.pdb
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.csproj.AssemblyReference.cache
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.AssemblyInfoInputs.cache
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.AssemblyInfo.cs
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.csproj.CoreCompileInputs.cache
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.dll
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/refint/dz03.10.dll
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.pdb
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/dz03.10.genruntimeconfig.cache
+/Users/sergey/GitHub/HomeWork/dz03.10/dz03.10/obj/Debug/net7.0/ref/dz03.10.dll
