@@ -1,0 +1,15 @@
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/bin/Debug/net7.0/DZ16.11
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/bin/Debug/net7.0/DZ16.11.deps.json
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/bin/Debug/net7.0/DZ16.11.runtimeconfig.json
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/bin/Debug/net7.0/DZ16.11.dll
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/bin/Debug/net7.0/DZ16.11.pdb
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.csproj.AssemblyReference.cache
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.AssemblyInfoInputs.cache
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.AssemblyInfo.cs
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.csproj.CoreCompileInputs.cache
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.dll
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/refint/DZ16.11.dll
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.pdb
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/DZ16.11.genruntimeconfig.cache
+/Users/sergey/GitHub/HomeWork/DZ16.11/DZ16.11/obj/Debug/net7.0/ref/DZ16.11.dll
