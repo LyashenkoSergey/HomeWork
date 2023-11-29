@@ -1,0 +1,15 @@
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.csproj.AssemblyReference.cache
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.AssemblyInfoInputs.cache
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.AssemblyInfo.cs
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.csproj.CoreCompileInputs.cache
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/bin/Debug/net7.0/DictionaryProject
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/bin/Debug/net7.0/DictionaryProject.deps.json
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/bin/Debug/net7.0/DictionaryProject.runtimeconfig.json
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/bin/Debug/net7.0/DictionaryProject.dll
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/bin/Debug/net7.0/DictionaryProject.pdb
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.dll
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/refint/DictionaryProject.dll
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.pdb
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/DictionaryProject.genruntimeconfig.cache
+/Users/sergey/GitHub/HomeWork/DictionaryProject/DictionaryProject/obj/Debug/net7.0/ref/DictionaryProject.dll
