@@ -1,0 +1,2 @@
+12/1/2023 12:24:18PM - Error - sergey - An error occurred in the application
+12/1/2023 12:24:18PM - Information - sergey - User logged in successfully

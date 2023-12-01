@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "DQQnQdDlek9blOTYw3teJ7rqQlAJDD1KkspP9c/s6slJTvOo39Mc7Qqvqc/iw0SVfGfR6NM5o28aCHDODp7I7g==",
+  "success": true,
+  "projectFilePath": "/Users/sergey/GitHub/HomeWork/DZ13.12.23/DZ13.12.23/DZ13.12.23.csproj",
+  "expectedPackageFiles": [
+    "/Users/sergey/.nuget/packages/microsoft.win32.systemevents/7.0.0/microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/system.configuration.configurationmanager/7.0.0/system.configuration.configurationmanager.7.0.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/system.diagnostics.eventlog/7.0.0/system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/system.drawing.common/7.0.0/system.drawing.common.7.0.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/system.security.cryptography.protecteddata/7.0.0/system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/system.security.permissions/7.0.0/system.security.permissions.7.0.0.nupkg.sha512",
+    "/Users/sergey/.nuget/packages/system.windows.extensions/7.0.0/system.windows.extensions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
